@@ -1,0 +1,109 @@
+body{
+    background-color:darkgoldenrod;
+    line-height:1.6em;
+    padding-top:5px;
+    padding-left:300px;
+    padding-right:300px;
+    padding-bottom:5px;
+}
+
+/*Global*/
+.container{
+    margin:auto;
+    overflow:hidden;
+}
+
+/*Main-box*/
+.box{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:16px;
+}
+
+/*Main-header*/
+#main-header{
+    background-color:darkslategrey;
+    color:white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:20px;
+    text-align:center;
+    padding-top:5px;
+    padding-bottom:5px;
+    border-left: black 2px solid;
+    border-right: black 2px solid;
+    border-bottom:black 2px solid;
+    border-top: black 2px solid;
+
+}
+
+#navbar ul{
+    padding:0;
+    list-style:none;
+}
+
+#navbar li{
+    display:inline;
+}
+
+#navbar a{
+    color:white;
+    text-decoration:none;
+    font-size:18px;
+    padding-right:15px;
+}
+#navbar a:hover{
+    color:blue;
+    font-weight:bold;
+
+}
+/*Showcase*/
+#showcase{
+    background-image:url('../image/jj.png');
+    background-position:center;
+    background-size:100% 100%;
+    min-height:200px;
+    border-left: black 2px solid;
+    border-right: black 2px solid;
+    border-bottom:black 2px solid;
+}
+/* Main*/
+#main{
+    background-color:darkslategrey;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:16px;
+    text-align:center;
+    padding:5px;
+    min-height:200px;
+    border-left:black 2px solid;
+    border-right:black 2px solid;
+    border-bottom:black 2px solid;
+}
+
+
+
+/* Main-footer */
+#main-footer{
+    background:darkslategrey;
+    color:white;
+    text-align:center;
+    padding:5px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:12px;
+    border-right:black 2px solid;
+    border-left:black 2px solid;
+    border-bottom:black 2px solid;
+}
+
+
+/* Media */
+@media(max-width 768px){
+  header #main-header,
+  header #navbar,
+  header nav li{
+     float:none;
+     text-align:center;
+     width:100%
+}
+    
+
+
