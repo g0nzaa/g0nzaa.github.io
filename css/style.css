@@ -105,5 +105,12 @@ body{
      width:100%
 }
     
+/* Media */
+@media(max-width 600px){
+    p{
+      font-size: 1.25rem;
+  
+     }
+  }
 
 
